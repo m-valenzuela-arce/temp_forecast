@@ -1,0 +1,178 @@
+nombre,descripción
+XLAT,"LATITUDE, SOUTH IS NEGATIVE"
+XLONG,"LONGITUDE, WEST IS NEGATIVE"
+LU_INDEX,LAND USE CATEGORY
+ZNU,eta values on half (mass) levels
+ZNW,eta values on full (w) levels
+ZS,DEPTHS OF CENTERS OF SOIL LAYERS
+DZS,THICKNESSES OF SOIL LAYERS
+VAR_SSO,variance of subgrid-scale orography
+EROD,fraction of erodible surface in each grid cell (0-1)
+U,x-wind component
+V,y-wind component
+W,z-wind component
+PH,perturbation geopotential
+PHB,base-state geopotential
+T,perturbation potential temperature theta-t0
+THM,"either 1) pert moist pot temp=(1+Rv/Rd Qv)*(theta)-T0, or 2) pert dry pot temp=t"
+T_INIT,initial potential temperature
+MU,perturbation dry air mass in column
+MUB,base state dry air mass in column
+P,perturbation pressure
+AL,inverse perturbation density
+ALB,inverse base density
+PB,BASE STATE PRESSURE
+FNM,upper weight for vertical stretching
+FNP,lower weight for vertical stretching
+RDNW,inverse d(eta) values between full (w) levels
+RDN,inverse d(eta) values between half (mass) levels
+DNW,d(eta) values between full (w) levels
+DN,d(eta) values between half (mass) levels
+T_BASE,BASE STATE T IN IDEALIZED CASES
+CFN,extrapolation constant
+CFN1,extrapolation constant
+STEP_NUMBER,
+THIS_IS_AN_IDEAL_RUN,T/F flag: this is an ARW ideal simulation
+P_HYD,hydrostatic pressure
+Q2,QV at 2 M
+T2,TEMP at 2 M
+TH2,POT TEMP at 2 M
+PSFC,SFC PRESSURE
+U10,U at 10 M
+V10,V at 10 M
+RDX,INVERSE X GRID LENGTH
+RDY,INVERSE Y GRID LENGTH
+DTS,SMALL TIMESTEP
+DTSEPS,TIME WEIGHT CONSTANT FOR SMALL STEPS
+RESM,TIME WEIGHT CONSTANT FOR SMALL STEPS
+ZETATOP,ZETA AT MODEL TOP
+CF1,2nd order extrapolation constant
+CF2,2nd order extrapolation constant
+CF3,2nd order extrapolation constant
+QVAPOR,Water vapor mixing ratio
+QCLOUD,Cloud water mixing ratio
+QRAIN,Rain water mixing ratio
+QICE,Ice mixing ratio
+QSNOW,Snow mixing ratio
+QGRAUP,Graupel mixing ratio
+FCX,RELAXATION TERM FOR BOUNDARY ZONE
+GCX,2ND RELAXATION TERM FOR BOUNDARY ZONE
+TOPOSLPX,ELEVATION X SLOPE
+TOPOSLPY,ELEVATION Y SLOPE
+SHDMAX,ANNUAL MAX VEG FRACTION
+SHDMIN,ANNUAL MIN VEG FRACTION
+SNOALB,ANNUAL MAX SNOW ALBEDO IN FRACTION
+LANDUSEF,LANDUSE FRACTION BY CATEGORY
+SOILCTOP,SOIL CAT FRACTION (TOP)
+SOILCBOT,SOIL CAT FRACTION (BOTTOM)
+TSLB,SOIL TEMPERATURE
+SMOIS,SOIL MOISTURE
+SH2O,SOIL LIQUID WATER
+SMCREL,RELATIVE SOIL MOISTURE
+SEAICE,SEA ICE FLAG
+IVGTYP,DOMINANT VEGETATION CATEGORY
+ISLTYP,DOMINANT SOIL CATEGORY
+VEGFRA,VEGETATION FRACTION
+SNOW,SNOW WATER EQUIVALENT
+SNOWH,PHYSICAL SNOW DEPTH
+CANWAT,CANOPY WATER
+FNDSNOWH,SNOWH_LOGICAL
+FNDSOILW,SOILW_LOGICAL
+FNDALBSI,ALBSI_LOGICAL
+FNDSNOWSI,SNOWSI_LOGICAL
+FNDICEDEPTH,ICEDEPTH_LOGICAL
+LAKE_DEPTH,lake depth
+UOCE,SEA SURFACE ZONAL CURRENTS
+VOCE,SEA SURFACE MERIDIONAL CURRENTS
+FRC_URB2D,URBAN FRACTION
+LAI,LEAF AREA INDEX
+VAR,OROGRAPHIC VARIANCE
+MAPFAC_M,Map scale factor on mass grid
+MAPFAC_U,Map scale factor on u-grid
+MAPFAC_V,Map scale factor on v-grid
+MAPFAC_MX,"Map scale factor on mass grid, x direction"
+MAPFAC_MY,"Map scale factor on mass grid, y direction"
+MAPFAC_UX,"Map scale factor on u-grid, x direction"
+MAPFAC_UY,"Map scale factor on u-grid, y direction"
+MAPFAC_VX,"Map scale factor on v-grid, x direction"
+MF_VX_INV,"Inverse map scale factor on v-grid, x direction"
+MAPFAC_VY,"Map scale factor on v-grid, y direction"
+F,Coriolis sine latitude term
+E,Coriolis cosine latitude term
+SINALPHA,Local sine of map rotation
+COSALPHA,Local cosine of map rotation
+HGT,Terrain Height
+TSK,SURFACE SKIN TEMPERATURE
+U_BASE,BASE STATE X WIND IN IDEALIZED CASES
+V_BASE,BASE STATE Y WIND IN IDEALIZED CASES
+QV_BASE,BASE STATE QV IN IDEALIZED CASES
+Z_BASE,BASE STATE HEIGHT IN IDEALIZED CASES
+U_FRAME,FRAME X WIND
+V_FRAME,FRAME Y WIND
+P_TOP,PRESSURE TOP OF THE MODEL
+GOT_VAR_SSO,whether VAR_SSO was included in WPS output (beginning V3.4)
+LAT_LL_T,"latitude lower left, temp point"
+LAT_UL_T,"latitude up left, temp point"
+LAT_UR_T,"latitude up right, temp point"
+LAT_LR_T,"latitude lower right, temp point"
+LAT_LL_U,"latitude lower left, u point"
+LAT_UL_U,"latitude up left, u point"
+LAT_UR_U,"latitude up right, u point"
+LAT_LR_U,"latitude lower right, u point"
+LAT_LL_V,"latitude lower left, v point"
+LAT_UL_V,"latitude up left, v point"
+LAT_UR_V,"latitude up right, v point"
+LAT_LR_V,"latitude lower right, v point"
+LAT_LL_D,"latitude lower left, massless point"
+LAT_UL_D,"latitude up left, massless point"
+LAT_UR_D,"latitude up right, massless point"
+LAT_LR_D,"latitude lower right, massless point"
+LON_LL_T,"longitude lower left, temp point"
+LON_UL_T,"longitude up left, temp point"
+LON_UR_T,"longitude up right, temp point"
+LON_LR_T,"longitude lower right, temp point"
+LON_LL_U,"longitude lower left, u point"
+LON_UL_U,"longitude up left, u point"
+LON_UR_U,"longitude up right, u point"
+LON_LR_U,"longitude lower right, u point"
+LON_LL_V,"longitude lower left, v point"
+LON_UL_V,"longitude up left, v point"
+LON_UR_V,"longitude up right, v point"
+LON_LR_V,"longitude lower right, v point"
+LON_LL_D,"longitude lower left, massless point"
+LON_UL_D,"longitude up left, massless point"
+LON_UR_D,"longitude up right, massless point"
+LON_LR_D,"longitude lower right, massless point"
+T00,BASE STATE TEMPERATURE
+P00,BASE STATE PRESURE
+TLP,BASE STATE LAPSE RATE
+TISO,TEMP AT WHICH THE BASE T TURNS CONST
+TLP_STRAT,BASE STATE LAPSE RATE (DT/D(LN(P)) IN STRATOSPHERE
+P_STRAT,BASE STATE PRESSURE AT BOTTOM OF STRATOSPHERE
+XLAT_U,"LATITUDE, SOUTH IS NEGATIVE"
+XLONG_U,"LONGITUDE, WEST IS NEGATIVE"
+XLAT_V,"LATITUDE, SOUTH IS NEGATIVE"
+XLONG_V,"LONGITUDE, WEST IS NEGATIVE"
+CLAT,"COMPUTATIONAL GRID LATITUDE, SOUTH IS NEGATIVE"
+ALBBCK,BACKGROUND ALBEDO
+TMN,SOIL TEMPERATURE AT LOWER BOUNDARY
+XLAND,"LAND MASK (1 FOR LAND, 2 FOR WATER)"
+CPLMASK,"COUPLING MASK (0:VALUE FROM SST UPDATE; 1:VALUE FROM COUPLED OCEAN), vertical di"
+SNOWC,FLAG INDICATING SNOW COVERAGE (1 FOR SNOW COVER)
+SR,fraction of frozen precipitation
+SAVE_TOPO_FROM_REAL,1=original topo from real/0=topo modified by WRF
+LAKEFLAG,Flag for lake  in the global attributes for metgrid data
+LAKE_DEPTH_FLAG,Flag for lakedepth  in the global attributes for metgrid data
+C1H,"half levels, c1h = d bf / d eta, using znw"
+C2H,"half levels, c2h = (1-c1h)*(p0-pt)"
+C1F,"full levels, c1f = d bf / d eta, using znu"
+C2F,"full levels, c2f = (1-c1f)*(p0-pt)"
+C3H,"half levels, c3h = bh"
+C4H,"half levels, c4h = (eta-bh)*(p0-pt)+pt, using znu"
+C3F,"full levels, c3f = bf"
+C4F,"full levels, c4f = (eta-bf)*(p0-pt)+pt, using znw"
+PCB,base state dry air mass in column
+PC,perturbation dry air mass in column
+LANDMASK,"LAND MASK (1 FOR LAND, 0 FOR WATER)"
+LAKEMASK,"LAKE MASK (1 FOR LAKE, 0 FOR NON-LAKE)"
+SST,SEA SURFACE TEMPERATURE
