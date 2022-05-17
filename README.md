@@ -1,7 +1,7 @@
 ## Implementación de un modelo de predicción de temperatura
 
 Proyecto realizado para la clase de Big Data de la Maestría en Ciencia de Datos de la Universidad de Sonora.
-Tiene como principal objetivo el uso de herramientas de Big Data como Spark, Apache Superset y ML-Flow.
+Tiene como principal objetivo el uso de herramientas de Big Data como Spark y ML-Flow.
 
 ### Introducción
 
