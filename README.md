@@ -17,8 +17,19 @@ Proponemos implementar un modelo de regresión para predecir la temperatura para
 
 ### ¿Cómo funciona el modelo WRF?
 
-<img src="https://github.com/danielmc81/temp_forecast/blob/b0b423c8c2df9e64331e30764a451380b432882d/imagenes/wrf-flow.jpg" width=600 alt="hola">
+Para generar una predicción utilizando este modelo es necesario seguir una serie de pasos que van desde la asimilación de datos hasta la propia ejecución del modelo. 
+
+#### Datos de entrada 
+
+Existen algunos modelos que generan las entradas para WRF, entre ellos se encuentran NAM (North American Mesoscale Forecast System), GFS (Global Forecast System) y ECMWF (European Centre for Medium-Range Weather Forecasts). Entre las principales diferencias estan el 
+
+Existen que necesitamos son NAM (North American Mesoscale Forecast) y son proporcionados gratuitamente por [NOAA](https://www.ncei.noaa.gov) (National Oceanic Atmospheric Administration).
+Puede consultar nuestra [guía para descargar los archivos NAM](https://github.com)
+
+
+<img src="" width=600>
 https://www.j-kosham.or.kr/journal/view.php?doi=10.9798/KOSHAM.2018.18.2.445 
+
 
 
 
