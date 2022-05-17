@@ -52,8 +52,6 @@ La siguiente imagen es el diagrama de flujo propuesto para la solución.
 <figure>
   <img src="imagenes/diagrama.jpg" width=800 title="Diagrama de Flujo">   
 </figure>
-<br>
-<br>
 Esperamos disminuir considerablemente el tiempo necesario para obtener un pronóstico utilizando el modelo pre-entrenado de regresión.
 
 
